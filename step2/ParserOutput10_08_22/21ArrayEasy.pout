@@ -1,0 +1,12 @@
+Start 0
+PushI  (99)
+GoSub L1(4)
+Jump, 10
+GoSubLabel L1
+PushI  (1)
+PopArray A, (0)
+PushI  (1)
+PushArray A, (0)
+Return
+PrintTOS 
+Exit 

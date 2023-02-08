@@ -1,0 +1,8 @@
+Start 0
+GoSub L1(4)
+Prints this_should_print
+Jump, 7
+GoSubLabel L1
+Prints print_in_subroutine_should_print
+Return
+Exit 

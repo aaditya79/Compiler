@@ -1,0 +1,8 @@
+Start 3
+PushI  (4)
+PushI  (2)
+PopArray A, (0)
+PushI  (2)
+PushArray A, (0)
+PrintTOS 
+Exit 

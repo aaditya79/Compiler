@@ -1,0 +1,4 @@
+Start 0
+PushI  (2)
+PrintTOS 
+Exit 

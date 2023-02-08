@@ -1,0 +1,15 @@
+Start 1
+PushI  (4)
+PushI  (8)
+PushI  (1)
+PopArray A, (0)
+PushI  (2)
+PopArray A, (0)
+PushI  (1)
+PushArray A, (0)
+PushI  (2)
+PushArray A, (0)
+PrintTOS 
+Pop 
+PrintTOS 
+Exit 

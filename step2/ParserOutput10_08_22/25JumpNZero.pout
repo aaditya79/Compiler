@@ -1,0 +1,15 @@
+Start 0
+PushI  (1)
+Dup 
+JumpNZero, L1, (5)
+Prints this_should_not_print_1
+Prints this_should_print_1
+Dup 
+PushI  (1)
+Negate 
+Add 
+JumpNZero, L2, (13)
+Prints this_should_print_2
+Jump, 14
+Prints this_should_not_print_2
+Exit 

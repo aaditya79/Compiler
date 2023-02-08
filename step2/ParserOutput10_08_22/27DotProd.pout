@@ -1,0 +1,42 @@
+Start 10
+PushI  (0)
+PopScalar C, (8)
+PushI  (4)
+PopScalar I, (9)
+PushScalar I, (9)
+PushI  (1)
+Negate 
+Add 
+Dup 
+PopScalar I, (9)
+Dup 
+PopArray A, (0)
+PushScalar I, (9)
+PushI  (4)
+Add 
+PushScalar I, (9)
+PopArray B, (4)
+PushScalar I, (9)
+JumpNZero, LOOPTOP1, (5)
+PushI  (4)
+PopScalar I, (9)
+PushScalar I, (9)
+PushI  (1)
+Negate 
+Add 
+Dup 
+PopScalar I, (9)
+Dup 
+PushArray A, (0)
+Swap 
+PushArray B, (4)
+Mul 
+PushScalar C, (8)
+Add 
+PopScalar C, (8)
+PushScalar I, (9)
+JumpNZero, LOOPTOP2, (22)
+PushScalar C, (8)
+Prints dot_product_value_is:
+PrintTOS 
+Exit 

@@ -1,0 +1,11 @@
+Start 2
+PushI  (4)
+PushI  (8)
+PopScalar A, (0)
+PopScalar B, (1)
+PushScalar A, (0)
+PushScalar B, (1)
+PrintTOS 
+Pop 
+PrintTOS 
+Exit 

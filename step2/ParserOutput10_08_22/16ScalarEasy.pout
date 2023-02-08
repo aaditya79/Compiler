@@ -1,0 +1,10 @@
+Start 0
+PushI  (4)
+GoSub L1(4)
+Jump, 8
+GoSubLabel L1
+PopScalar A, (0)
+PushScalar A, (0)
+Return
+PrintTOS 
+Exit 

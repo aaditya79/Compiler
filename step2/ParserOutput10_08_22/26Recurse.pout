@@ -1,0 +1,22 @@
+Start 0
+PushI  (3)
+GoSub FIB(5)
+PrintTOS 
+Jump, 21
+GoSubLabel FIB
+Prints in_FIB
+Dup 
+PopScalar A, (0)
+PushI  (1)
+Negate 
+Add 
+Dup 
+JumpZero, FIBL0, (18)
+GoSub FIB(5)
+PushScalar A, (0)
+Mul 
+Jump, 20
+Pop 
+PushI  (1)
+Return
+Exit 
