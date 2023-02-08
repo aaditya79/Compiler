@@ -1,0 +1,25 @@
+start
+declarr A 7
+declarr B 1
+gosub L1
+jump L2
+gosublabel L1
+declarr A 7
+declarr B 1
+pushi 4
+pushi 8
+pushi 2
+poparr A
+pushi 0
+poparr B
+pushi 2
+pusharr A
+pushi 0
+pusharr B
+return
+label L2
+printtos
+pop
+printtos
+exit
+end

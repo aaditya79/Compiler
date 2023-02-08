@@ -1,0 +1,10 @@
+start
+gosub L1
+prints this_should_print
+jump endlabel
+gosublabel L1
+prints print_in_subroutine_should_print
+return
+label endlabel
+exit
+end

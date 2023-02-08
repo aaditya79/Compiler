@@ -1,0 +1,11 @@
+start
+declarr A 3
+declarr A 3
+pushi 4
+pushi 2
+poparr A 
+pushi 2
+pusharr A 
+printtos
+exit
+end

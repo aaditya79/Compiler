@@ -1,0 +1,7 @@
+start
+jump L1
+prints this_should_not_print
+label L1
+prints this_should_print
+exit
+end

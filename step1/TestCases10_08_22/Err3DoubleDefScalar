@@ -1,0 +1,9 @@
+start
+declscal A
+declscal A
+pushi 4
+popscal A
+pushscal A
+printtos
+exit
+end

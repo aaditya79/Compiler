@@ -1,0 +1,15 @@
+start
+pushi 99
+gosub L1
+jump L2
+gosublabel L1
+declarr A 3
+pushi 1
+poparr A
+pushi 1
+pusharr A
+return
+label L2
+printtos
+exit
+end

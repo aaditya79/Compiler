@@ -1,0 +1,6 @@
+start
+pushi 6
+negate
+printtos
+exit
+end

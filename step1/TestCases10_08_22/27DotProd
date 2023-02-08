@@ -1,0 +1,49 @@
+start
+declarr A 4
+declarr B 4
+declscal C
+declscal I
+pushi 0
+popscal C
+pushi 4
+popscal I
+label LOOPTOP1
+pushscal I
+pushi 1
+negate
+add
+dup
+popscal I
+dup
+poparr A
+pushscal I
+pushi 4
+add
+pushscal I
+poparr B
+pushscal I
+jumpnzero LOOPTOP1
+pushi 4
+popscal I
+label LOOPTOP2
+pushscal I
+pushi 1
+negate
+add
+dup
+popscal I
+dup
+pusharr A 
+swap
+pusharr B 
+mul
+pushscal C
+add
+popscal C
+pushscal I
+jumpnzero LOOPTOP2
+pushscal C
+prints dot_product_value_is:
+printtos
+exit
+end

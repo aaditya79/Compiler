@@ -1,0 +1,13 @@
+start
+pushi 4
+gosub L1
+jump L2
+gosublabel L1
+declscal A
+popscal A
+pushscal A
+return
+label L2
+printtos
+exit
+end

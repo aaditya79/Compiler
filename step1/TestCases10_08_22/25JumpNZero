@@ -1,0 +1,20 @@
+start
+pushi 1
+dup
+jumpnzero L1
+prints this_should_not_print_1
+label L1
+prints this_should_print_1
+dup
+pushi 1
+negate
+add
+jumpnzero L2
+prints this_should_print_2
+jump L3
+label L2
+prints this_should_not_print_2
+label L3
+label EXIT
+exit
+end

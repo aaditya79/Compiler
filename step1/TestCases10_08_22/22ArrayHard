@@ -1,0 +1,23 @@
+start
+gosub L1
+jump L2
+gosublabel L1
+declarr A 2
+declarr B 2
+pushi 4
+pushi 8
+pushi 1
+poparr A
+pushi 2
+poparr B
+pushi 1
+pusharr A
+pushi 2
+pusharr B
+return
+label L2
+printtos
+pop
+printtos
+exit
+end

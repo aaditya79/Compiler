@@ -1,0 +1,7 @@
+start
+pushi 6
+pushi 7
+mul
+printtos
+exit
+end
